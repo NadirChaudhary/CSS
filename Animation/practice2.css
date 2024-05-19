@@ -1,0 +1,33 @@
+#outer-circle{
+    height: 500px;
+    width: 500px;
+    border: 30px solid #994D1C;
+    border-top: 30px solid #E48F45;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    animation: spin 3s steps(1000) 0s infinite normal;
+}
+
+#inner-circle{
+    height: 300px;
+    width: 300px;
+    border: 30px solid #9AD0C2;
+    border-bottom: 30px solid #2D9596;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -180px 0px 0px -180px;
+    animation: spin 3s steps(1000) 0s infinite normal;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

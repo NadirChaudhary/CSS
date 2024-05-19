@@ -1,0 +1,29 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: lightcoral;
+}
+
+/* @media (width : 630px){
+    div{
+        background-color: red;
+    }
+} */
+
+/* @media (min-width: 800px){
+    div{
+        background-color: green;
+    }
+} */
+
+/* @media (max-width: 800px){
+    div{
+        background-color: green;
+    }
+} */
+
+@media(min-width: 700px) and (max-width: 800px){
+    div{
+        background-color: red;
+    }
+}

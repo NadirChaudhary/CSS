@@ -1,0 +1,29 @@
+#box{
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    background-color: cadetblue;
+    border: 2px solid black;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    animation-name: colorAnimate;
+    /* animation-duration: 3s; */
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 1s; */
+    animation-delay: 0s;
+    /* animation-iteration-count: 5; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorAnimate{
+    from{background-color: cadetblue;}
+    to{background-color: red;}
+}
+
+#box:hover{ 
+}
+
+#box:active{   
+}

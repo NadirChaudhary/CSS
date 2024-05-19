@@ -1,0 +1,24 @@
+h1{
+    background-color: bisque;
+    height: 40px;
+    width: 400px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: brown;
+    text-align: center;
+
+}
+
+div{
+    background-color: bisque;
+    height: 40px;
+    width: 400px;
+    /*border-width: 1px;
+    border-style: dotted;
+    border-color: brown;*/
+    border: 1px dotted rgb(243, 9, 9);
+    text-align: center;
+}
+p{
+    border:4px dotted darkgreen;   /* this method called shorthand */
+}

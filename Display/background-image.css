@@ -1,0 +1,33 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+body{
+    color: white;
+    background-image: url("bac.jpg");
+    background-size: cover;
+}
+
+#box1{
+    background-image: url("cat1.jpg");
+    background-size: cover;
+}
+
+#box2{
+    background-image: url("cat2.jpg");
+    background-size: contain;
+}
+
+#box3{
+    background-image: url("cat3.jpg");
+    background-size: cover;
+}
+
+#box4{
+    background-image: url("cat4.jpg");
+    background-size: auto;
+}

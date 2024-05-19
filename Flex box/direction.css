@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+.bigbox{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid brown;
+}
+
+#box1{
+    background-color: burlywood;
+}
+
+#box2{
+    background-color: lightcoral;
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: navajowhite;
+}
+
+#box5{
+    background-color: thistle;
+}

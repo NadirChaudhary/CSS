@@ -1,0 +1,40 @@
+.box{
+    height: 100px;
+    width: 100px;
+    /* background-color: aqua; */
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: burlywood ;
+    position: static; /* top,bottom,left,right didt't work with static property */
+}
+
+#box2{
+    background-color: bisque;
+    position: relative; /* top,bottom,left,right work with relative property */
+    top: 20px;
+    left: 10px;
+}
+
+#box3{
+    background-color: cadetblue;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+
+#box4{
+    background-color: gray;
+    position: fixed; /* it fixed the position */
+    top: 0;
+}
+
+#box5{
+    background-color: teal;
+    position: sticky;
+    top: 0;
+    left: 20px;
+
+}

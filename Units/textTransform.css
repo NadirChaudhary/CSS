@@ -1,0 +1,12 @@
+#one{
+    text-align: justify;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#two{
+    text-transform: capitalize;
+    text-transform: none;
+}
+#three{
+    text-transform: lowercase;
+}

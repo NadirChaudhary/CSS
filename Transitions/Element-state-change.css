@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+
+div:hover{
+    background-color: rgb(79, 6, 6);
+    color: white;
+}
+div:active{
+    background-color: pink;
+}

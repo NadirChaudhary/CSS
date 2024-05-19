@@ -1,0 +1,24 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgb(255,0,0,.25);
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgb(255,0,0,.50);
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgb(255,0,0,.75);
+}

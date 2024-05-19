@@ -1,0 +1,34 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: burlywood ;
+    position: static;
+    z-index: -1;
+}
+
+#box2{
+    background-color: bisque;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1; /* Overlapping elements with a larger z-index cover those with a smaller one */ 
+}
+
+#box3{
+    background-color: cadetblue;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    z-index: 1;
+}
+
+#box4{
+    background-color: gray;
+    position: fixed;
+    top: 50;
+}

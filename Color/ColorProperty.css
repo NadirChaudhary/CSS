@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+p{
+    color: darkgreen;
+}
+button{
+    color: red;
+    background-color: cadetblue;
+}
+body{
+    background-color: rgb(117, 87, 39);
+}
+h2{
+    color: rgb(255,100,55);
+}
+h3{
+    color: #ff0000;  
+}
+
